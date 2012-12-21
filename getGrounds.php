@@ -1,5 +1,5 @@
 <?php
-mysql_connect("localhost","root","100Likes!");//database connection
+mysql_connect("localhost","USERNAME","PASSWORD");//database connection
 mysql_select_db("bragem");
 $query = "SELECT latitude,longitude,sport,area,place,state,country FROM playgrounds";
     $result = mysql_query($query);  
