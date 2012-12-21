@@ -1,7 +1,7 @@
 <?php
 //the example of inserting data with variable from HTML form
 //input.php
-mysql_connect("localhost","root","100Likes!");//database connection
+mysql_connect("localhost","USERNAME","PASSWORD");//database connection
 mysql_select_db("bragem");
 
 $latitude = $_POST['latitude'];
